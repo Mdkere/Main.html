@@ -1,0 +1,264 @@
+body {
+    font-family: 'Anton', sans-serif;
+    background-image: url(img);
+    color: #B4B1A9;
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url("./../img/gazeta.png");
+    background-size: 100%;
+}
+
+:root {
+    --container-width: 1000px;
+}
+
+.block {
+    height: 200px;
+    background-color: green;
+    max-width: 1000px;
+}
+
+.header {
+    position: relative;
+    padding-top: 19px;
+    background-size: 100%;
+    min-height: 1080px;
+    max-width: 1000px;
+
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 96px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    padding-top: 19px;
+    margin-bottom: 174px;
+    height: 120px;
+    background-color: green;
+}
+
+.block_nav {
+    margin: 0 auto;
+    max-width: 874px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 174px;
+}
+
+.header_content {
+    margin-top: 174px;
+}
+
+.block_content {
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 1114px;
+    border-radius: 20px;
+    background-color: #3F383D;
+}
+.h1_head {
+    padding-top: 95px;
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-left: 63px;
+    letter-spacing: 3px;
+}
+.h1_body {
+    padding-top: 55px;
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-left: 63px;
+    letter-spacing: 2px;
+}
+.h1_box {
+    margin-top: -258px;
+    margin-right: 63px;
+    display: flex;
+    width: 428px;
+    height: 240px;
+    float: right;
+        column-gap: 80px;
+}
+
+.h2_head {
+    padding-top: 63px;
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-left: 63px;
+    letter-spacing: 3px;
+}
+.h2_body {
+    padding-top: 55px;
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-left: 63px;
+    letter-spacing: 2px;
+}
+.h2_box {
+    margin-top: -258px;
+    margin-right: 63px;
+    display: flex;
+    width: 428px;
+    height: 240px;
+    float: right;
+        column-gap: 80px;
+}
+
+.h3_head {
+    padding-top: 63px;
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-left: 63px;
+    letter-spacing: 3px;
+}
+.h3_body {
+    padding-top: 55px;
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-left: 63px;
+    letter-spacing: 2px;
+}
+.h3_box {
+    margin-top: -258px;
+    margin-right: 63px;
+    display: flex;
+    width: 428px;
+    height: 240px;
+    float: right;
+    column-gap: 80px;
+}
+
+
+.nav {
+    max-width: 1000px;
+    display: flex;
+    margin-bottom: 174px;
+    background-color: #3F383D;
+    border-radius: 20px;
+}
+
+.nav_menu {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    column-gap: 80px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.main,
+.news,
+.registration {
+    text-decoration: none;
+    color: #B4B1A9;
+}
+
+.ad {
+    widh: 200px;
+    height: 1080px;
+    background-color: green;
+    float: right;
+}
+
+.bar {
+    margin-top: 400px;
+    width: 1000px;
+    height: 50px;
+    background-color: #3F383D;
+    font-size: 34px;
+    color: #B4B1A9;
+    border-radius: 20px;
+    text-align: center;
+}
+.bartxt {
+    padding-top: 8px;
+    letter-spacing: 1.5px;
+}
+.registration_box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration {
+    text-align: center;
+}
+
+.registration_box {
+    background-color: #3F383D;
+}
+
+.name {
+    font-size: 19px;
+}
+.email {
+    font-size: 19px;
+}
+.password {
+    font-size: 19px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    background-color: #B4B1A9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #B4B1A9;
+}
